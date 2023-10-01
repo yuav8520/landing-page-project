@@ -5,6 +5,12 @@
 .header ,.footer{
     background-color: #1f2937;
 }
+.quote-space{
+    background-color: #E5E7EB;
+    color: #1f2937;
+    font-style: italic;
+   
+}
 .title, .header ,.main ,.text , body,.random-info,.card{
     display: flex;
 }
@@ -13,7 +19,7 @@
     color: #1f2937;
     font-weight: 900;
     text-align: center;
-    
+    font-weight: 300;
 }
 .logo{
 font-size: 32px;
@@ -52,4 +58,22 @@ height: 100px;
 .card{
     gap: 10px;
 }
-.title{}
+.quote-space{
+    background-color: #e5e7eb;
+    height: 300px;
+}
+#lol{
+    background-color: #3882f6;
+    width: 500px;
+    display: flex;
+}
+.random-info button{
+    background-color: #3882f6;
+    border-color: #e5e7eb;
+    color: #e5e7eb;
+    border-radius: 25px;
+    
+}
+.call-to-action{
+    color: #E5E7EB;
+}
