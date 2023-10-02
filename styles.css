@@ -5,25 +5,44 @@
 .header ,.footer{
     background-color: #1f2937;
 }
+.header{
+height: 400px;
+}
 .quote-space{
     background-color: #E5E7EB;
     color: #1f2937;
     font-style: italic;
-   
+    margin-top: 80px;
+    font-style: italic;
+    padding-bottom: 80px;
 }
-.title, .header ,.main ,.text , body,.random-info,.card{
+   
+
+.title, .header ,.main ,.text , body,.random-info,.card,.image,.random-info2,.call{
     display: flex;
 }
 .sub-title{
     font-size: 32px;
     color: #1f2937;
-    font-weight: 900;
     text-align: center;
-    font-weight: 300;
+    font-weight: 700;
+    margin-bottom: 40px;
+margin-top: 40px;
 }
 .logo{
 font-size: 32px;
 flex: 1;
+margin: 30px;
+margin-top: 15px;
+margin-left: 100px;
+}
+.headers-link
+{margin-right: 100px;
+    display: flex;
+
+}
+.header-link{
+    margin: 15px;
 }
 .header-link ,.subtext{
     color: #e5e7eb;
@@ -34,9 +53,13 @@ flex: 1;
 .main-text{
     font-size: 48px;
 }
-.sign-up
+button
 { background-color: #3882f6;
-
+    color: #f9faf8;
+    color: #e5e7eb;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
 }
 img{
     height: 200px;
@@ -44,36 +67,78 @@ img{
 }
 .random-info{
     justify-content: center;
-    gap: 50px;
+    gap: 35px;
+    height: 250px;
 }
 .image{
 border-color: #3882f6;
-border-radius: 25px;
+border-radius: 10px;
 border-width: 2px;
 border-style: solid;
-padding: 20px;
 width: 100px;
 height: 100px;
+margin-top: 80px;
+flex-direction: column;
 }
 .card{
     gap: 10px;
 }
-.quote-space{
-    background-color: #e5e7eb;
-    height: 300px;
-}
+
 #lol{
-    background-color: #3882f6;
-    width: 500px;
-    display: flex;
+   
+   display: flex;
+    flex-grow: 1;
+
+ 
+
 }
 .random-info button{
-    background-color: #3882f6;
     border-color: #e5e7eb;
-    color: #e5e7eb;
-    border-radius: 25px;
-    
 }
 .call-to-action{
     color: #E5E7EB;
+    
+ 
+}
+.main{
+    margin-top: 40px;
+    justify-content: space-around;
+}
+.quote{
+   margin-left: auto;
+   margin-right: auto;
+    margin-top: 80px;
+    max-width: 800px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300px;
+}
+.quote-maker{
+    margin-right: 350px;
+    text-align: right;
+    font-size: 22px;
+    font-weight: 700;
+}
+.random-info2{
+    background-color: #3882f6;
+border-radius: 10px;
+border-width: 2px;
+border-style: solid;
+width: 800px;
+height: 200px;
+
+margin-top: 80px;
+}
+.call{
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px;
+}
+#sign-up-down{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#sign-up-down button{
+    margin-right: 80px;
 }
